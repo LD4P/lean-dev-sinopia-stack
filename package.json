@@ -1,0 +1,24 @@
+{
+  "name": "ld4p-conference-talk",
+  "version": "1.0.0",
+  "description": "LD4P 2019 Presentation by Jeremy Nelson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermnelson/ld4p-2019-conference-talk.git"
+  },
+  "keywords": [
+    "presentation",
+    "ld4p",
+    "sinopia"
+  ],
+  "author": "Jeremy Nelson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jermnelson/ld4p-2019-conference-talk/issues"
+  },
+  "homepage": "https://github.com/jermnelson/ld4p-2019-conference-talk#readme"
+}
