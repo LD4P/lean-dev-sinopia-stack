@@ -13,7 +13,9 @@ class Build extends HTMLElement {
     shadowRoot.innerHTML = `
     <div id="build" style="grid-column: 1/3; grid-row: 1;">
      <h1>Build Phase</h1>
-     <p>Starting in September 2018, the Sinopia development team &hellip;</p>
+     <p>Starting in September 2018, the Sinopia development team lead by project
+     owner Michelle Futornick, started implementing the Sinopia Stack based on the
+     technical artecture created by Christina Harlow.</p>
      <pivot-modal-to-outline></pivot-modal-to-outline>
     </div>
     `

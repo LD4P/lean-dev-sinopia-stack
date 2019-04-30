@@ -15,9 +15,8 @@ class WorkCycleOne extends HTMLElement {
       <div id="work-cycle-one">
         <h2>Sinopia Work-Cycle One</h2>
         <h1>Lean Development of the Sinopia Stack</h1>
-        <p>by Jeremy Nelson<br/>
-           Sinopia Technical Lead<br/>
-           Stanford University Libraries
+        <p>by Jeremy Nelson &amp; Joshua Greben<br/>
+           <a href="http://library.stanford.edu/">Stanford University Libraries</a>
         </p>
         <div class="bml-loop">
           <build-one slot="loop"></build-one>
