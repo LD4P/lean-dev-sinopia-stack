@@ -4,7 +4,7 @@ class Learn extends HTMLElement {
     const shadowRoot = this.attachShadow( { mode: 'open'} )
     shadowRoot.innerHTML = `
     <div id="learn" style="grid-column: 2/3; grid-row: 1;">
-     <h1>Learn Phase</h1>
+     <h1>Learn = Maintenance Phase</h1>
      <p class="intro">
        The <em>Learn</em> phase of the <strong>BML</strong> loop for
        this Work Cycle, will start in earnest once we have received and organized

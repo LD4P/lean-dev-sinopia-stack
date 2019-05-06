@@ -1,8 +1,10 @@
 import Build from './Build.js'
+import LeanStartup from './LeanStartup.js'
 import Learn from './Learn.js'
 import Measure from './Measure.js'
 
 customElements.define(`build-one`, Build)
+customElements.define('lean-startup', LeanStartup)
 customElements.define(`learn-one`, Learn)
 customElements.define('measure-one', Measure)
 
@@ -18,6 +20,7 @@ class WorkCycleOne extends HTMLElement {
         <p>by Jeremy Nelson &amp; Joshua Greben<br/>
            <a href="http://library.stanford.edu/">Stanford University Libraries</a>
         </p>
+        <lean-startup></lean-startup>
         <div class="bml-loop">
           <build-one slot="loop"></build-one>
           <measure-one slot="loop"></measure-one>
