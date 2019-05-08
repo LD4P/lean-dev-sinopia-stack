@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jermnelson/ld4p-2019-conference-talk/issues"
   },
-  "homepage": "https://github.com/jermnelson/ld4p-2019-conference-talk#readme"
+  "homepage": "https://github.com/jermnelson/ld4p-2019-conference-talk#readme",
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
 }

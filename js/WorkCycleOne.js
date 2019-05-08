@@ -14,12 +14,27 @@ class WorkCycleOne extends HTMLElement {
     super()
     const shadowRoot = this.attachShadow( { mode: 'open'} )
     shadowRoot.innerHTML = `
+      <style>
+        .intro {
+          background-color: white;
+          border: 1px solid black;
+          padding: .5em;
+        }
+        .bml-loop {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+          grid-auto-rows: minmax(100px, auto);
+          }
+      </style>
       <div id="work-cycle-one">
-        <h2>Sinopia Work-Cycle One</h2>
-        <h1>Lean Development of the Sinopia Stack</h1>
-        <p>by Jeremy Nelson &amp; Joshua Greben<br/>
+        <div class="intro">
+          <h2>Sinopia Work-Cycle One</h2>
+          <h1>Lean Development of the Sinopia Stack</h1>
+          <p>by Jeremy Nelson &amp; Joshua Greben<br/>
            <a href="http://library.stanford.edu/">Stanford University Libraries</a>
-        </p>
+           </p>
+        </div>
         <lean-startup></lean-startup>
         <div class="bml-loop">
           <build-one slot="loop"></build-one>

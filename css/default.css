@@ -22,3 +22,7 @@ body {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
+#work-cycle-one {
+  border: 1px solid black;
+}
