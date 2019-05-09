@@ -1,8 +1,8 @@
 import Pivot from './Pivot.js'
-import SinopiaDemo from './SinopiaDemo.js'
+
 
 customElements.define('pivot-modal-to-outline', Pivot)
-customElements.define('sinopia-demo', SinopiaDemo)
+
 class Build extends HTMLElement {
 
   static get observatedAttributes() {
@@ -38,22 +38,9 @@ class Build extends HTMLElement {
       </li>
      </ol>
      <pivot-modal-to-outline></pivot-modal-to-outline>
-     <h2>Minimum Viable Product -- Work Cycle One</h2>
-     <sinopia-demo></sinopia-demo>
+
     </div>
     `
-  }
-
-  attributeChangedCallback(attr, oldVal, newVal) {
-    // switch(attr) {
-    //   case '':
-    //   default:
-    //
-    // }
-  }
-
-  connectedCallback() {
-
   }
 }
 
