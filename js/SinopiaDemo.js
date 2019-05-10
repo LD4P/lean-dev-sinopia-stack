@@ -1,3 +1,8 @@
+import Pivot from './Pivot.js'
+
+
+customElements.define('pivot-modal-to-outline', Pivot)
+
 export default class SinopiaDemo extends HTMLElement {
 
   constructor() {
@@ -9,16 +14,18 @@ export default class SinopiaDemo extends HTMLElement {
         background-color: white;
         border: 1px solid black;
         padding: .5em;
-        height: 80%;
+        height: 60%;
       }
     </style>
     <div class="demo">
-      <h1>Minimum Viable Product -- Work Cycle One</h1>
-      <h2>Sinopia Demonstration</h2>
+      <h1>Sinopia's Minimum Viable Product</h1>
+      <h2>Work Cycle One</h2>
       <p>Currently available on
-        <a href="https://development.sinopia.io/">https://development.sinopia.io/</a> &hellip;
+        <a href="https://development.sinopia.io/">https://development.sinopia.io/</a>
       </p>
       <img src="img/sinopia-screenshot.png" />
-    </div>`
+    </div>
+    <br>
+    <pivot-modal-to-outline></'pivot-modal-to-outline>`
   }
 }
