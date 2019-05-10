@@ -31,6 +31,8 @@ class WorkCycleOne extends HTMLElement {
       </style>
       <div id="work-cycle-one">
         <div class="intro">
+          <h4 style="float: right"><a href="https://ld4p.github.io/lean-dev-sinopia-stack/">https://ld4p.github.io/lean-dev-sinopia-stack/</a></h4>
+
           <h2>Sinopia Work-Cycle One</h2>
           <h1>Lean Development of the Sinopia Stack</h1>
           <p>by Jeremy Nelson &amp; Joshua Greben<br/>
