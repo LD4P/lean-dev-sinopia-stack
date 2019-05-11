@@ -14,7 +14,7 @@ export default class SinopiaDemo extends HTMLElement {
         background-color: white;
         border: 1px solid black;
         padding: .5em;
-        height: 60%;
+        height: 50%;
       }
     </style>
     <div class="demo">

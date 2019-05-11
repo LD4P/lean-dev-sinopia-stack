@@ -26,10 +26,12 @@ export default class LeanStartup extends HTMLElement {
           Lean Startup is fundementally based on the idea that needs from the users drive
           development, that requirements are "pulled" from the end users instead of trying
           to development a system that assumes the requirements and "pushes" features from
-          the developer to the end user.
+          the developer to the end user. This idea of pulling from the end-users started
+          in Lean Manufacturing and is illustrated like this:
         </p>
         <div style="background-color: white; padding: .5em">
          <img src="img/push-vs-pull-models.png" alt="Push vs. Pull models" />
+         <br>(From <em>Becoming a Lean Library</em>)
         </div>
       </div>
       <div>

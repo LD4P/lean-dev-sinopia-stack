@@ -43,7 +43,7 @@ class Measure extends HTMLElement {
      <quote>Search and view data created in Sinopia</quote>
      <p>Sinopia's use of <a href="https://github.com/trellis-ldp">Trellis</a> to store the RDF provides 
      <a href="https://tools.ietf.org/html/rfc7089">Memento</a> artifacts for version tracking of events like 
-     RDF creation and modification that includes that will allow us to generate usages reports for measuring
+     RDF creation and modification that allows us to generate usages reports for measuring
      impact among the cohort of insitutions who will first be using Sinopia.</p>
     </div>`
   }
