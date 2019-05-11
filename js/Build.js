@@ -32,15 +32,15 @@ class Build extends HTMLElement {
         <p>In early 2019, the Sinopia team released an early version of the
          Sinopia Linked Data Editor, inspired by Library of Congress Bibframe
          Editor, that allows users to load resource templates contained in the Profiles
-         created in the Profile Editor. We also were able to demostrate the value and 
+         created in the Profile Editor. We also were able to demostrate the value and
          utility of using React components for creating the user infrace for the Editor
          based on the structure of the resource templates.
         </p>
       </li>
       <li>
         <h4>User Login and "Profile Opening Night"</h4>
-        <p>This month we are starting 
-        <a href="https://github.com/LD4P/sinopia/issues/166">User Acceptance Testing</a> 
+        <p>This month we are starting
+        <a href="https://github.com/LD4P/sinopia/issues/166">User Acceptance Testing</a>
         for milestone three that requires the user to be able to accomplish the following:</p>
         <ul>
           <li>Authentication / Log In</li>
@@ -50,12 +50,13 @@ class Build extends HTMLElement {
       </li>
       <li>
         <h4>Production of Original Data: Create and save data in Editor</h4>
-        <p>The Sinopia team has started work for Milestone four that will be completed when the 
+        <p>The Sinopia team has started work for <a href="https://github.com/LD4P/sinopia/issues/167">Milestone four</a> 
+        that will be completed when the
          following <a href="">User Acceptance Testing</a> is completed:
         <ul>
           <li>Creating and saving RDF data</li>
           <li>Finding Data in Sinopia</li>
-          <li>Referring to Sinopia Created Data</li> 
+          <li>Referring to Sinopia Created Data</li>
         </ul>
       </li>
      </ol>

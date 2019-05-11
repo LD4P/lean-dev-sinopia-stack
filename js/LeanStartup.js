@@ -22,21 +22,31 @@ export default class LeanStartup extends HTMLElement {
            products and services in what he calls a BML loop, short for three
            phases <strong>Build</strong> - <strong>Measure</strong> - <strong>Learn</strong>.
         </p>
-        <p>Pulling requirements from the community or user base, the principle delivierable
-           <strong>Build</strong> phase is a <em>MVP</em> - Minimum Valuable Product that attempts
-           to deliver just what the users need and ideally, nothing more. The next step
-           in the loop is <strong>Measure</strong>, identifying key metrics from which you
-           prepare for the final step in the project development lifecycle. Taking the key metrics
-           and measurements gathered in the previous step, the <strong>Learn</strong> phase
-           involves analyzing these results that structure what will be built in the next
-           Build-Measure-Learn loop.
+        <p>
+          Lean Startup is fundementally based on the idea that needs from the users drive
+          development, that requirements are "pulled" from the end users instead of trying
+          to development a system that assumes the requirements and "pushes" features from
+          the developer to the end user.
         </p>
+        <div style="background-color: white; padding: .5em">
+         <img src="img/push-vs-pull-models.png" alt="Push vs. Pull models" />
+        </div>
       </div>
       <div>
+       <p>
+         Pulling requirements from the community or user base, the principle delivierable
+         <strong>Build</strong> phase is a <em>MVP</em> - Minimum Valuable Product that attempts
+         to deliver just what the users need and ideally, nothing more. The next step
+         in the loop is <strong>Measure</strong>, identifying key metrics from which you
+         prepare for the final step in the project development lifecycle. Taking the key metrics
+         and measurements gathered in the previous step, the <strong>Learn</strong> phase
+         involves analyzing these results that structure what will be built in the next
+         Build-Measure-Learn loop.
+        </p>
         <p>More details on applying Lean Startup principles to library can be found in my first
            book, <em>Becoming a Lean Library</em>
         </p>
-        <img src="img/bll-cover.png" />
+        <img src="img/bll-cover.png" alt="Becoming a Lean Library Book Cover" />
       </div>
     </div>`
   }
